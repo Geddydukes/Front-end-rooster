@@ -463,6 +463,16 @@
   .bodySectionFourText {
     margin-top: 22%;
   }
+  .bodySection {
+    height: 150vh;
+  }
+  .homeIcons {
+    height: 10vh;
+    border: black 2px solid;
+    border-radius: 45px;
+    padding: 5px;
+    margin: -5px;
+  }
 }
 
 @media only screen and (max-height: 550px) and (min-width: 600px) {
