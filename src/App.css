@@ -464,7 +464,7 @@
     margin-top: 22%;
   }
   .bodySection {
-    height: 150vh;
+    height: 100vh;
   }
   .homeIcons {
     height: 10vh;
@@ -477,7 +477,7 @@
 
 @media only screen and (max-height: 550px) and (min-width: 600px) {
   .bodySection {
-    height: 150vh;
+    height: 120vh;
   }
   .bodyHeaderTwo {
     font-size: x-large;
