@@ -464,7 +464,7 @@
     margin-top: 22%;
   }
   .bodySection {
-    height: 100vh;
+    height: 90vh;
   }
   .homeIcons {
     height: 10vh;
@@ -473,6 +473,13 @@
     padding: 5px;
     margin: -5px;
   }
+  /* .bodySectionThree {
+    height: 70vh;
+  }
+
+  .bodySectionFive {
+    height: 70vh;
+  } */
 }
 
 @media only screen and (max-height: 550px) and (min-width: 600px) {
@@ -491,5 +498,8 @@
     border-radius: 45px;
     padding: 5px;
     margin: -5px;
+  }
+  .bodySectionFive {
+    height: 120vh;
   }
 }
