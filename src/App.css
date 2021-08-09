@@ -564,11 +564,14 @@
     grid-row-start: 2;
   }
   .bodySectionTwoText {
-    margin-top: 18%;
+    margin-top: 12%;
     padding: 4px;
   }
+  .bodySectionThreeText {
+    margin-top: 8%;
+  }
   .bodySectionFourText {
-    margin-top: 10%;
+    margin-top: 8%;
     font-size: large;
   }
   .bodySectionFiveText {
@@ -590,6 +593,14 @@
   }
   .iconsContainer {
     grid-column-start: 6;
+  }
+  .bodyButton {
+    background-color: rgb(255, 86, 19);
+    min-height: 4vh;
+    width: 10vw;
+    color: antiquewhite;
+    border: none;
+    margin-top: 8px;
   }
 }
 
@@ -638,5 +649,13 @@
   }
   .iconsContainer {
     grid-column-start: 6;
+  }
+  .bodyButton {
+    background-color: rgb(255, 86, 19);
+    min-height: 4vh;
+    width: 10vw;
+    color: antiquewhite;
+    border: none;
+    margin-top: 3vh;
   }
 }
