@@ -4,7 +4,7 @@ import instagram from "../front-end-dev-test-assets/instagram.svg";
 
 const Footer = () => {
   return (
-    <nav className="footerNavBar">
+    <div className="footerBar">
       <div className="socialLinksFooter">
         <p>Follow Us</p>
         <a
@@ -30,7 +30,7 @@ const Footer = () => {
           ></img>
         </a>
       </div>
-    </nav>
+    </div>
   );
 };
 

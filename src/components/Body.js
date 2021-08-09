@@ -53,7 +53,7 @@ const Body = () => {
       </div>
       <div className="bodySection bodySectionFour">
         <div className="bodySectionFourText">
-          <header>LOREM IPSUM</header>
+          <header className="bodyHeaderOne">LOREM IPSUM</header>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. In numquam
             mollitia atque consequatur vero. Quo, minus tempora in porro illo
