@@ -625,6 +625,9 @@
     margin-top: 5%;
     font-size: medium;
   }
+  .bodyHeaderOne {
+    font-size: x-large;
+  }
   .bodyHeaderThree {
     margin-top: 4%;
     font-size: xx-large;
