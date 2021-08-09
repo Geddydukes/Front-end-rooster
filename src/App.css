@@ -622,4 +622,11 @@
     margin-top: 4%;
     font-size: xx-large;
   }
+  .bodySectionThree {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  }
+  .iconsContainer {
+    grid-column-start: 6;
+  }
 }
