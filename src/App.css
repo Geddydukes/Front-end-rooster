@@ -4,7 +4,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 75vh 40vh 40vh 40vh 40vh 40vh 8vh;
+  grid-template-rows: 100vh 40vh 40vh 40vh 40vh 40vh 8vh;
 }
 
 .App a {
@@ -35,11 +35,11 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  animation: fadeIn 2.5s;
-  -webkit-animation: fadeIn 2.5s;
-  -moz-animation: fadeIn 2.5s;
-  -o-animation: fadeIn 2.5s;
-  -ms-animation: fadeIn 2.5s;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
 }
 @keyframes fadeIn {
   0% {
@@ -100,15 +100,16 @@
   font-size: medium;
   color: black;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 3vh;
   grid-row-start: 1;
+  margin-top: 13%;
 }
 
 .bodyHeaderThree {
   font-size: large;
   color: black;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 3vh;
 }
 
 .bodyButton {
@@ -177,7 +178,7 @@
   position: absolute;
   margin-left: 10vw;
   margin-right: 55vw;
-  margin-top: 6%;
+  margin-top: 12%;
   color: purple;
   grid-column-start: 5;
 }
@@ -194,7 +195,7 @@
   position: absolute;
   margin-left: 10vw;
   margin-right: 60vw;
-  margin-top: 3%;
+  margin-top: 6%;
   font-size: xx-small;
   grid-column-start: 1;
   grid-column-end: 6;
@@ -372,15 +373,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 75vh 45vh 45vh 45vh 45vh 43vh 8vh;
+    grid-template-rows: 100vh 45vh 45vh 40vh 45vh 50vh 8vh;
   }
-  .bodySectionThreeOne {
+  .bodySectionTwoText {
     text-align: left;
     float: left;
     position: absolute;
     margin-left: 10vw;
     margin-right: 55vw;
-    margin-top: 4%;
+    margin-top: 25%;
     font-size: xx-small;
   }
 
@@ -390,7 +391,7 @@
     position: absolute;
     margin-left: 10vw;
     margin-right: 55vw;
-    margin-top: 4%;
+    margin-top: 8%;
     font-size: xx-small;
   }
   .bodySectionFourText {
@@ -401,14 +402,14 @@
     color: purple;
     font-weight: 700;
     grid-column-start: 1;
-    margin-top: 3vh;
+    margin-top: 1vh;
   }
   .bodyHeaderTwo {
     font-size: medium;
     color: black;
     font-weight: 700;
     margin-bottom: 15px;
-    margin-top: 3vh;
+    margin-top: 0%;
   }
   .bodyHeaderThree {
     font-size: large;
@@ -476,7 +477,7 @@
     position: relative;
     float: right;
     width: 100%;
-    grid-column-start: 9;
+    grid-column-start: 6;
     grid-column-end: 11;
     display: grid;
     columns: 4;
@@ -487,11 +488,74 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 75vh 43vh 43vh 43vh 43vh 43vh 8vh;
+    grid-template-rows: 100vh 43vh 43vh 43vh 43vh 43vh 8vh;
   }
   .bodyHeaderTwo {
     font-size: medium;
     margin-top: 6%;
+  }
+}
+
+@media only screen and (width: 411px) and (min-height: 731px) and (max-height: 823px) {
+  .App {
+    grid-template-rows: 100vh 43vh 43vh 43vh 43vh 38vh 8vh;
+  }
+  .bodyHeaderOne {
+    margin-top: 25%;
+  }
+  .bodySectionTwoText {
+    margin-top: 22%;
+  }
+  .bodyHeaderTwo {
+    margin-top: 22%;
+  }
+  .bodySectionThreeText {
+    margin-top: 12%;
+  }
+  .bodySectionFourText {
+    margin-top: 12%;
+  }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 375px) and (min-height: 736px) and (max-height: 812px) {
+  .App {
+    grid-template-rows: 100vh 43vh 43vh 43vh 43vh 38vh 8vh;
+  }
+  .bodyHeaderOne {
+    margin-top: 25%;
+  }
+  .bodySectionTwoText {
+    margin-top: 22%;
+  }
+  .bodyHeaderTwo {
+    margin-top: 22%;
+  }
+  .bodySectionThreeText {
+    margin-top: 15%;
+  }
+  .bodySectionFourText {
+    margin-top: 12%;
+  }
+}
+
+@media only screen and (width: 540px) and (height: 720px) {
+  .App {
+    grid-template-rows: 100vh 43vh 43vh 43vh 43vh 38vh 8vh;
+  }
+  .bodyHeaderOne {
+    margin-top: 25%;
+  }
+  .bodySectionTwoText {
+    margin-top: 22%;
+  }
+  .bodyHeaderTwo {
+    margin-top: 22%;
+  }
+  .bodySectionThreeText {
+    margin-top: 12%;
+  }
+  .bodySectionFourText {
+    margin-top: 12%;
   }
 }
 
@@ -502,7 +566,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 75vh 60vh 60vh 60vh 60vh 70vh 8vh;
+    grid-template-rows: 100vh 60vh 60vh 60vh 60vh 52vh 8vh;
   }
 
   .bodySectionThreeText {
@@ -553,32 +617,38 @@
     color: purple;
     font-weight: 700;
     grid-column-start: 1;
+    margin-top: 30%;
+  }
+  .bodyHeaderTwo {
+    font-size: x-large;
+    margin-top: 10%;
   }
   .bodySectionOneText {
     text-align: left;
     position: absolute;
     margin-left: 10vw;
-    font-size: medium;
+    font-size: x-large;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
   }
   .bodySectionTwoText {
-    margin-top: 12%;
+    margin-top: 25%;
     padding: 4px;
   }
   .bodySectionThreeText {
-    margin-top: 8%;
+    margin-top: 20%;
+    font-size: large;
   }
   .bodySectionFourText {
-    margin-top: 8%;
+    margin-top: 15%;
     font-size: large;
   }
   .bodySectionFiveText {
-    margin-top: 10%;
+    margin-top: 25%;
   }
   .theReview {
-    margin-top: 8%;
+    margin-top: 25%;
   }
   .homeIcons {
     height: 10vh;
