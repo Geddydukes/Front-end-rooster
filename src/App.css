@@ -155,7 +155,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /* float: right; */
   width: 100%;
   grid-column-start: 5;
   grid-column-end: 9;
@@ -343,13 +342,13 @@
 }
 
 .socialImages {
-  height: 4vmax;
+  height: 2vmax;
   margin: 1.25vh 1vw 2vh;
 }
 
 .socialImages:hover {
-  height: 5vmax;
-  margin: 0.75vh 1vw 1.5vh;
+  height: 3vmax;
+  margin: 0.75vh 0.5vw 1.5vh;
   border: purple;
   transition: 0.7s;
 }
@@ -461,28 +460,6 @@
     font-size: x-small;
   }
 }
-
-/* @media only screen and (max-height: 550px) and (min-width: 600px) {
-  .bodySection {
-    height: 120vh;
-  }
-  .bodyHeaderTwo {
-    font-size: x-large;
-    color: black;
-    font-weight: 700;
-    margin-bottom: 15px;
-  }
-  .homeIcons {
-    height: 10vh;
-    border: black 2px solid;
-    border-radius: 45px;
-    padding: 5px;
-    margin: -5px;
-  }
-  .bodySectionFive {
-    height: 120vh;
-  }
-} */
 
 @media only screen and (max-width: 280px) {
   .iconsContainer {
