@@ -308,7 +308,6 @@
   width: 100%;
   grid-column-start: 2;
   grid-column-end: 3;
-  /* margin-left: -1.2vw; */
   margin-top: 5vh;
   margin-bottom: 15vh;
 }
@@ -752,36 +751,11 @@
     grid-template-columns: 100vw;
     grid-template-rows: 100vh 55vh 55vh 55vh 55vh 55vh 8vh;
   }
-
-  .bodySectionOneText {
-    /* margin-top: 10%; */
-    /* font-size: medium; */
-  }
-  .bodySectionTwoText {
-    /* margin-top: 12%; */
-  }
-  .bodySectionThreeText {
-    /* margin-top: 8%; */
-    /* font-size: medium; */
-  }
-  .bodySectionFourText {
-    /* font-size: medium; */
-  }
   .iconsContainer {
     grid-column-start: 7;
     grid-column-end: 11;
   }
-  .theReview {
-    /* margin-top: 5%; */
-    /* font-size: medium; */
-  }
-  .bodyHeaderOne {
-    /* font-size: 4vw; */
-  }
-  .bodyHeaderThree {
-    /* margin-top: 4%; */
-    /* font-size: 4vw; */
-  }
+
   .bodySectionThree {
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
@@ -795,6 +769,5 @@
     width: 10vw;
     color: antiquewhite;
     border: none;
-    /* margin-top: 3vh; */
   }
 }
