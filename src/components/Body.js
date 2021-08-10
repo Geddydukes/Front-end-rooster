@@ -6,8 +6,8 @@ const Body = () => {
   return (
     <div className="wholeBody">
       <div className="bodySection bodySectionOne">
-        <div className="bodySectionOneText">
-          <header className="bodyHeaderOne">LOREM IPSUM</header>
+        <div className="bodySectionOneText smallText">
+          <header className="bodyHeaderOne headerText">LOREM IPSUM</header>
           <p>
             {" "}
             Dolor sit amet consectetur adipisicing elit. Animi facilis
@@ -27,13 +27,15 @@ const Body = () => {
       </div>
       <div className="bodySection bodySectionTwo">
         <div className="bodySectionTwoText">
-          <header className="bodyHeaderOne">LOREM IPSUM</header>{" "}
+          <header className="bodyHeaderOne headerText">LOREM IPSUM</header>{" "}
           <button className="bodyButton">Button Button</button>
         </div>
       </div>
       <div className="bodySection bodySectionThree">
-        <div className="bodySectionThreeText">
-          <header className="bodyHeaderTwo">LOREM IPSUM DOLAR SIT AMET</header>{" "}
+        <div className="bodySectionThreeText smallText">
+          <header className="bodyHeaderTwo headerText">
+            LOREM IPSUM DOLAR SIT AMET
+          </header>{" "}
           <p>
             {" "}
             consectetur adipisicing elit. Quisquam adipisci quos tenetur
@@ -52,8 +54,8 @@ const Body = () => {
         <Icons />
       </div>
       <div className="bodySection bodySectionFour">
-        <div className="bodySectionFourText">
-          <header className="bodyHeaderOne">LOREM IPSUM</header>
+        <div className="bodySectionFourText smallText">
+          <header className="bodyHeaderOne headerText">LOREM IPSUM</header>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. In numquam
             mollitia atque consequatur vero. Quo, minus tempora in porro illo
@@ -64,8 +66,8 @@ const Body = () => {
       </div>
       <div className="bodySection bodySectionFive">
         {" "}
-        <div className="bodySectionFiveText">
-          <header className="bodyHeaderThree">
+        <div className="bodySectionFiveText smallText">
+          <header className="bodyHeaderThree headerText">
             LOREM IPSUM DOLAR SIT AMET
           </header>
           <span className="fiveStars">★★★★★</span>
