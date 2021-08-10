@@ -340,6 +340,7 @@
   background-color: rgb(240, 240, 240);
   grid-column-start: 1;
   width: 100%;
+  margin-top: 15vh;
 }
 
 .socialLinksFooter p {
@@ -749,7 +750,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 100vh 55vh 55vh 55vh 55vh 55vh 8vh;
+    grid-template-rows: 100vh 35vw 55vh 55vh 55vh 55vh 8vh;
   }
   .iconsContainer {
     grid-column-start: 7;
@@ -769,5 +770,9 @@
     width: 10vw;
     color: antiquewhite;
     border: none;
+  }
+  .socialLinksFooter {
+    margin-top: 30vw;
+    padding-top: 2vh;
   }
 }
