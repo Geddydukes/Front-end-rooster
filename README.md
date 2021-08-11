@@ -70,7 +70,15 @@ These required features are requested specifically by the client and should be i
 ### _Please also submit a small write up discussing (leave answers to a sentence or two):_
 
 1. What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
-2. Any struggles you faced when developing with technology you chose
+
+1a. For this site I used HTML, CSS and Javascript throught the React framework. All styling was done with plain css.
+
+2. Any struggles you faced when developing with technology you chose.
+
+2a. The main struggle I encountered was challenging myself to do as much as I could without looking up syntax. CSS wasn't a language I'd call my bread and butter before this but I now feel extremely comfortable in navigating and managing a css file.
+
 3. What you enjoyed the most and why
+
+3a. I throughly enjoyed having a project to work on, web development is incredibly fun and solving the issues that came up was invigorating.
 
 If you have any questions please feel free to email me (Matt) at matt.sprague@roostergrin.com
