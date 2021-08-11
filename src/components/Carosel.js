@@ -9,7 +9,7 @@ const Carosel = () => {
 
   data.forEach((data) => {
     let review = (
-      <p className="theReview">
+      <p className="theReview smallText">
         {" "}
         <bold>
           {data.name} | | {data.date}
